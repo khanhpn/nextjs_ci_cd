@@ -28,6 +28,16 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: install
+      - name: Run yarn prettier
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: format
+
+      - name: Run yarn lint
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: lint
+
       - name: Build production
         uses: borales/actions-yarn@v4
         with:
