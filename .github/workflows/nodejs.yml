@@ -4,7 +4,7 @@ name: Deploy the nextjs to the production
 #   push:
 #     branches: ['main']
 
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
