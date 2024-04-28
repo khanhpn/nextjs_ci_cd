@@ -50,4 +50,4 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next lint
 
       - name: Run format
-        run: ${{ steps.detect-package-manager.outputs.runner }} next format
+        run: ${{ steps.detect-package-manager.outputs.runner }} format
